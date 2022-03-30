@@ -6,6 +6,7 @@ import { MapComponent } from './map/map.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TableComponent } from './table/table.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [AppComponent, MapComponent, TableComponent],
@@ -15,7 +16,8 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
       apiKey: 'AIzaSyBVTfzH7aLncLb2R_EXc7RIJLuVGt1p-CA',
     }),
     HttpClientModule,
-    NgxDatatableModule
+    NgxDatatableModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent],

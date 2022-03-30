@@ -1,5 +1,6 @@
 <div>
-  <ngx-datatable [rows]="rows" [columns]="columns">
+	<button class="adding" >add asset</button>
+  <ngx-datatable [rows]="rows" class="material" [rowHeight]="50"[columns]="columns">
     <ngx-datatable-column name="name" prop="name">
       <ng-template *ngFor="let row of rows" ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
 		{{row.name}}
@@ -17,5 +18,5 @@
     </ngx-datatable-column>
 
   </ngx-datatable>
-
+  
 </div>

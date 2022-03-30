@@ -23,7 +23,7 @@ export class TableComponent implements OnInit {
     });
   }
 
-  onclick(value:any) {
+  onclick(value: any) {
     console.log(value);
   }
 }
