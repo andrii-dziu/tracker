@@ -1,0 +1,21 @@
+<div>
+  <ngx-datatable [rows]="rows" [columns]="columns">
+    <ngx-datatable-column name="name" prop="name">
+      <ng-template *ngFor="let row of rows" ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+		{{row.name}}
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Edit" prop="id">
+      <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+        <button type="button">Edit</button>
+      </ng-template>
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Delete" prop="id">
+      <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+        <button type="button" (click)='onclick(value)'>Delete</button>
+      </ng-template>
+    </ngx-datatable-column>
+
+  </ngx-datatable>
+
+</div>

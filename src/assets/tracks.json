@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "track 1",
+    "type": "long",
+    "latitude": "47.884578",
+    "longitude": "33.961028"
+  },
+  {
+    "id": 2,
+    "name": "track 2",
+    "type": "short",
+    "latitude": "48.435579",
+    "longitude": "30.142833"
+  },
+  {
+    "id": 3,
+    "name": "track 3",
+    "type": "long",
+    "latitude": "47.494009",
+    "longitude": "24.865947"
+  },
+  {
+    "id": 4,
+    "name": "track 4",
+    "type": "long",
+    "latitude": "50.438265",
+    "longitude": "33.275983"
+  },
+  {
+    "id": 5,
+    "name": "track 5",
+    "type": "long",
+    "latitude": "50.756441",
+    "longitude": "26.450387"
+  },
+  {
+    "id": 6,
+    "name": "track 6",
+    "type": "long",
+    "latitude": "48.924755",
+    "longitude": "26.962903"
+  },
+  {
+    "id": 7,
+    "name": "track 7",
+    "type": "long",
+    "latitude": "50.309515",
+    "longitude": "16.248409"
+  },
+  {
+    "id": 8,
+    "name": "track 8",
+    "type": "long",
+    "latitude": "449.402931",
+    "longitude": "32.782649"
+  },
+  {
+    "id": 9,
+    "name": "track 9",
+    "type": "long",
+    "latitude": "45.358900",
+    "longitude": "26.098595"
+  },
+  {
+    "id": 10,
+    "name": "track 10",
+    "type": "long",
+    "latitude": "44.362151",
+    "longitude": "23.284256"
+  }
+]
+
